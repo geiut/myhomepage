@@ -1,0 +1,235 @@
+---
+title: "高彬 - 个人网站"
+subtitle: "华中农业大学资源利用与植物保护专业研究生"
+author: "高彬"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    page-layout: full
+    toc: false
+    code-copy: false
+---
+
+::: {.hero}
+# 高彬
+## 资源利用与植物保护专业研究生
+### 华中农业大学 | 河南农业大学校友
+:::
+
+::: {.callout-note}
+**欢迎访问我的个人网站！** 这里展示了我的学术研究、专业技能和学习成果。作为一名致力于资源利用与植物保护领域的研究生，我专注于探索可持续农业发展的创新解决方案。
+:::
+
+## 📚 学术背景
+
+```{=html}
+<div class="row">
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">🎓 研究生教育</h5>
+        <h6 class="card-subtitle mb-2 text-muted">华中农业大学</h6>
+        <p class="card-text">资源利用与植物保护专业</p>
+        <ul>
+          <li>研究方向：可持续农业资源管理</li>
+          <li>专业技能：植物保护技术、资源评估</li>
+          <li>学术兴趣：生态农业、环境保护</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">🏫 本科教育</h5>
+        <h6 class="card-subtitle mb-2 text-muted">河南农业大学</h6>
+        <p class="card-text">农业科学基础教育</p>
+        <ul>
+          <li>扎实的农业科学理论基础</li>
+          <li>丰富的实践操作经验</li>
+          <li>团队协作与项目管理能力</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## 🎯 研究兴趣
+
+```{=html}
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">🌱 可持续农业</h5>
+        <p class="card-text">探索环境友好型农业生产模式，提高资源利用效率。</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">🌿 植物保护</h5>
+        <p class="card-text">研究植物病虫害防治技术，保障农作物健康生长。</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">🌍 资源管理</h5>
+        <p class="card-text">优化农业资源配置，实现生态与经济的平衡发展。</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## 🚀 网站导航
+
+```{=html}
+<div class="row">
+  <div class="col-md-3">
+    <a href="about.qmd" class="btn btn-primary btn-lg w-100 mb-3">
+      <i class="bi bi-person"></i><br>
+      <strong>关于我</strong><br>
+      <small>个人简介与经历</small>
+    </a>
+  </div>
+  <div class="col-md-3">
+    <a href="research.qmd" class="btn btn-success btn-lg w-100 mb-3">
+      <i class="bi bi-search"></i><br>
+      <strong>研究方向</strong><br>
+      <small>学术研究与项目</small>
+    </a>
+  </div>
+  <div class="col-md-3">
+    <a href="publications.qmd" class="btn btn-info btn-lg w-100 mb-3">
+      <i class="bi bi-file-text"></i><br>
+      <strong>学术成果</strong><br>
+      <small>论文与项目展示</small>
+    </a>
+  </div>
+  <div class="col-md-3">
+    <a href="skills.qmd" class="btn btn-warning btn-lg w-100 mb-3">
+      <i class="bi bi-tools"></i><br>
+      <strong>技能专长</strong><br>
+      <small>专业技能与能力</small>
+    </a>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-md-6">
+    <a href="contact.qmd" class="btn btn-secondary btn-lg w-100 mb-3">
+      <i class="bi bi-envelope"></i><br>
+      <strong>联系方式</strong><br>
+      <small>保持联系</small>
+    </a>
+  </div>
+  <div class="col-md-6">
+    <a href="#" class="btn btn-light btn-lg w-100 mb-3" onclick="window.open('CV_GaoBin.pdf', '_blank')">
+      <i class="bi bi-download"></i><br>
+      <strong>下载简历</strong><br>
+      <small>PDF格式</small>
+    </a>
+  </div>
+</div>
+```
+
+## 📊 学术数据
+
+```{=html}
+<div class="row">
+  <div class="col-md-3">
+    <div class="card text-white bg-primary">
+      <div class="card-body">
+        <h4 class="card-title">5+</h4>
+        <p class="card-text">研究项目参与</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-white bg-success">
+      <div class="card-body">
+        <h4 class="card-title">3+</h4>
+        <p class="card-text">学术论文阅读</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-white bg-info">
+      <div class="card-body">
+        <h4 class="card-title">10+</h4>
+        <p class="card-text">专业技能培训</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-white bg-warning">
+      <div class="card-body">
+        <h4 class="card-title">2</h4>
+        <p class="card-text">学位教育经历</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## 💡 学习目标
+
+作为一名研究生，我致力于：
+
+- **学术研究**：深入探索资源利用与植物保护的前沿技术
+- **实践应用**：将理论知识应用于实际农业生产
+- **持续学习**：掌握最新的农业科学技术
+- **交流合作**：与同行学者建立广泛的学术联系
+
+---
+
+*本网站使用 Quarto 技术构建，展示了我在学术研究和个人发展方面的努力与成果。*
+
+---
+
+## 📞 快速联系
+
+```{=html}
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">📧 邮箱联系</h5>
+        <p>gaobin@hzau.edu.cn</p>
+        <a href="mailto:gaobin@hzau.edu.cn" class="btn btn-primary">发送邮件</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">🔗 学术主页</h5>
+        <p>查看我的学术成果和研究项目</p>
+        <a href="publications.qmd" class="btn btn-success">访问成果</a>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h6>高彬个人网站</h6>
+        <p class="small text-muted">资源利用与植物保护专业研究生</p>
+        <p class="small text-muted">华中农业大学</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="small text-muted">© 2026 高彬</p>
+        <p class="small text-muted">使用 Quarto 技术构建</p>
+        <a href="quarto-guide.qmd" class="btn btn-outline-light btn-sm">学习 Quarto</a>
+      </div>
+    </div>
+  </div>
+</footer>

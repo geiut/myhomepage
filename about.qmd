@@ -1,0 +1,269 @@
+---
+title: "关于我"
+subtitle: "个人简介与成长历程"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## 👤 个人简介
+
+```{=html}
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body text-center">
+        <i class="bi bi-person-circle" style="font-size: 4rem; color: #007bff;"></i>
+        <h4 class="card-title mt-3">高彬</h4>
+        <p class="card-text">资源利用与植物保护专业研究生</p>
+        <div class="badge bg-primary mb-2">华中农业大学</div>
+        <div class="badge bg-success mb-2">河南农业大学校友</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">🌱 农业科技追梦人</h5>
+        <p class="card-text">
+          我是一名致力于资源利用与植物保护领域的研究生，怀揣着对农业科学的热爱和对可持续发展的追求。我相信科技是推动农业进步的关键力量，希望通过自己的努力为现代农业发展贡献一份力量。
+        </p>
+        <p class="card-text">
+          在科研道路上，我始终保持好奇心和探索精神，注重理论与实践的结合。我坚信，只有深入田间地头，才能真正理解农业的需求；只有掌握先进技术，才能有效解决实际问题。
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## 🎓 教育背景
+
+### 华中农业大学 | 研究生
+**资源利用与植物保护专业**  
+**时间：** 2022年9月 - 至今
+
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6>研究方向</h6>
+    <ul>
+      <li>可持续农业资源管理</li>
+      <li>植物保护技术与应用</li>
+      <li>智慧农业系统开发</li>
+    </ul>
+    
+    <h6>学术成就</h6>
+    <ul>
+      <li>发表核心期刊论文2篇</li>
+      <li>参与国家级科研项目2项</li>
+      <li>获得研究生奖学金</li>
+      <li>学术会议报告5次</li>
+    </ul>
+    
+    <h6>导师团队</h6>
+    <p>在李明教授的指导下，参与多个重要科研项目，积累了丰富的研究经验。</p>
+  </div>
+</div>
+```
+
+### 河南农业大学 | 本科
+**农业科学与工程专业**  
+**时间：** 2018年9月 - 2022年6月
+
+```{=html}
+<div class="card mt-3">
+  <div class="card-body">
+    <h6>学习经历</h6>
+    <ul>
+      <li>主修课程：植物生理学、土壤学、农业生态学</li>
+      <li>实验课程：分子生物学、微生物学、田间试验</li>
+      <li>毕业论文：《小麦病虫害综合防治技术研究》</li>
+    </ul>
+    
+    <h6>校园生活</h6>
+    <ul>
+      <li>农业科技创新协会成员</li>
+      <li>大学生创新创业项目负责人</li>
+      <li>校级优秀毕业生</li>
+    </ul>
+  </div>
+</div>
+```
+
+## 🌟 个人特质
+
+### 🔬 科研精神
+- **求真务实：** 坚持科学态度，注重实验数据的准确性
+- **创新思维：** 善于发现问题，勇于探索新的解决方案
+- **团队合作：** 具备良好的沟通能力和团队协作精神
+
+### 💡 兴趣爱好
+- **阅读：** 广泛阅读农业科技、环境科学相关书籍
+- **运动：** 坚持跑步和羽毛球运动，保持身心健康
+- **旅行：** 喜欢探索不同的农业生态，了解各地农业特色
+- **摄影：** 用镜头记录农业生产的美好瞬间
+
+### 🌱 价值观
+- **可持续发展：** 致力于环境保护与农业发展的平衡
+- **科技创新：** 相信科技是解决农业问题的关键
+- **社会责任：** 关注粮食安全和农民福祉
+
+## 🚀 成长历程
+
+### 2018-2022 | 本科阶段
+```{=html}
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2018年</h6>
+      <p>进入河南农业大学，开启农业科学学习之旅</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2019年</h6>
+      <p>参与大学生创新创业项目，获得校级二等奖</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2020年</h6>
+      <p>疫情期间坚持学习，完成线上实验课程</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2021年</h6>
+      <p>完成毕业论文，获得优秀毕业论文奖</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2022年</h6>
+      <p>获得校级优秀毕业生称号，考入华中农业大学</p>
+    </div>
+  </div>
+</div>
+```
+
+### 2022-至今 | 研究生阶段
+```{=html}
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2022年</h6>
+      <p>进入华中农业大学，开始研究生学习</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2023年</h6>
+      <p>发表第一篇学术论文，参与国家级科研项目</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2024年</h6>
+      <p>获得研究生奖学金，学术会议报告获奖</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2025年</h6>
+      <p>主持校级创新项目，建立田间示范基地</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h6>2026年</h6>
+      <p>完成多项研究成果，筹备博士申请</p>
+    </div>
+  </div>
+</div>
+```
+
+## 🤝 社会实践
+
+### 科技推广活动
+- **农业技术培训：** 为农民提供病虫害防治技术培训
+- **科普宣传：** 参与农业科技周活动，普及农业知识
+- **技术咨询：** 为企业提供农业技术咨询服务
+
+### 志愿服务
+- **乡村振兴：** 参与乡村振兴调研活动
+- **环保宣传：** 组织校园环保宣传活动
+- **支教活动：** 为农村学生开展科普讲座
+
+## 🌈 未来展望
+
+### 短期目标 (1-2年)
+- 完成硕士学业，争取发表更多高质量论文
+- 深入了解行业需求，积累实践经验
+- 提升专业技能，为职业发展打下坚实基础
+
+### 长期规划 (3-5年)
+- 继续攻读博士学位，深入专业领域研究
+- 参与重大科研项目，取得突破性成果
+- 成为农业科技创新的中坚力量
+
+### 终身追求
+- 推动农业科技进步，服务国家发展战略
+- 培养更多农业人才，传承科学精神
+- 为实现农业现代化贡献毕生力量
+
+---
+
+*这是一个农业科技工作者的成长记录，记录着我对农业的热爱和追求。感谢您花时间了解我的故事！*
+
+```{=html}
+<style>
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.5rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #007bff;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.timeline-content h6 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #e9ecef;
+}
+</style>
+```

@@ -1,0 +1,425 @@
+---
+title: "技能专长"
+subtitle: "专业技能与能力展示"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## 🎯 核心技能概览
+
+```{=html}
+<div class="row">
+  <div class="col-md-3">
+    <div class="card text-center">
+      <div class="card-body">
+        <i class="bi bi-flask" style="font-size: 2rem; color: #28a745;"></i>
+        <h5 class="card-title mt-2">实验技能</h5>
+        <p class="card-text">扎实的实验室操作能力</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center">
+      <div class="card-body">
+        <i class="bi bi-bar-chart" style="font-size: 2rem; color: #007bff;"></i>
+        <h5 class="card-title mt-2">数据分析</h5>
+        <p class="card-text">专业的数据处理与分析</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center">
+      <div class="card-body">
+        <i class="bi bi-code" style="font-size: 2rem; color: #6f42c1;"></i>
+        <h5 class="card-title mt-2">编程能力</h5>
+        <p class="card-text">熟练的编程与软件开发</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center">
+      <div class="card-body">
+        <i class="bi bi-people" style="font-size: 2rem; color: #fd7e14;"></i>
+        <h5 class="card-title mt-2">团队协作</h5>
+        <p class="card-text">优秀的团队合作能力</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## 🔬 实验室技能
+
+### 分子生物学技术
+
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+</div>
+```
+
+**掌握程度：** 熟练应用  
+**主要技能：**
+- DNA/RNA提取与纯化
+- PCR扩增与引物设计
+- 基因克隆与载体构建
+- 实时荧光定量PCR (qPCR)
+- 凝胶电泳与成像分析
+
+**实际应用：**
+- 完成10+个基因的克隆实验
+- 建立标准化的分子检测流程
+- 开发快速检测方法
+
+---
+
+### 微生物学技术
+
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+</div>
+```
+
+**掌握程度：** 熟练操作  
+**主要技能：**
+- 微生物培养与分离
+- 菌种保藏与复苏
+- 功能菌株筛选
+- 微生物群落分析
+- 抑菌试验与药敏测试
+
+**研究应用：**
+- 筛选高效生防菌株30株
+- 建立菌种资源库
+- 开发生物肥料配方
+
+---
+
+### 田间试验技术
+
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+</div>
+```
+
+**掌握程度：** 丰富经验  
+**主要技能：**
+- 试验设计与布局
+- 田间管理与观测
+- 样品采集与处理
+- 数据记录与整理
+- 长期定位试验
+
+**项目经验：**
+- 主持5个田间试验项目
+- 管理试验面积200+亩
+- 培训农民技术员20名
+
+## 💻 数据分析技能
+
+### 统计分析软件
+
+#### R语言
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-primary" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
+</div>
+```
+
+**熟练程度：** 高级应用  
+**掌握技能：**
+- 基础统计分析
+- 多元统计方法
+- 时间序列分析
+- 空间数据分析
+- 可视化图表制作
+
+**常用包：**
+- `ggplot2` - 高级绘图
+- `dplyr` - 数据处理
+- `caret` - 机器学习
+- `sp` - 空间分析
+- `shiny` - 交互式应用
+
+#### Python
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+```
+
+**熟练程度：** 中级应用  
+**掌握技能：**
+- 数据清洗与预处理
+- NumPy/Pandas数据处理
+- Matplotlib/Seaborn可视化
+- Scikit-learn机器学习
+- 自动化脚本编写
+
+**项目应用：**
+- 开发数据分析自动化流程
+- 构建预测模型
+- 处理大规模数据集
+
+#### SPSS
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+</div>
+```
+
+**熟练程度：** 熟练使用  
+**掌握技能：**
+- 描述性统计分析
+- 方差分析(ANOVA)
+- 回归分析
+- 相关性分析
+- 多元统计分析
+
+## 🛠️ 专业软件技能
+
+### GIS与遥感
+
+#### ArcGIS
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+</div>
+```
+
+**掌握技能：**
+- 空间数据处理
+- 地图制作与编辑
+- 空间分析
+- 栅格数据处理
+- 网络分析
+
+#### QGIS
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+```
+
+**掌握技能：**
+- 开源GIS应用
+- 插件开发
+- 批处理操作
+- 数据格式转换
+- 空间建模
+
+### 办公软件
+
+#### Microsoft Office
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+</div>
+```
+
+**掌握程度：** 精通  
+**应用能力：**
+- Word: 学术论文排版、报告撰写
+- Excel: 数据分析、图表制作、函数应用
+- PowerPoint: 学术汇报、项目展示
+- Outlook: 邮件管理、日程安排
+
+#### LaTeX
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-dark" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+</div>
+```
+
+**掌握技能：**
+- 学术论文排版
+- 参考文献管理
+- 数学公式编辑
+- 图表插入
+- 模板定制
+
+## 🌐 编程与开发技能
+
+### 编程语言
+
+#### Python
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6 class="card-title">主要应用领域</h6>
+    <ul>
+      <li>数据爬虫与采集</li>
+      <li>数据分析与处理</li>
+      <li>机器学习建模</li>
+      <li>自动化脚本开发</li>
+      <li>Web应用开发</li>
+    </ul>
+  </div>
+</div>
+```
+
+**项目经验：**
+- 开发农业数据采集系统
+- 构建作物生长预测模型
+- 实现自动化报告生成
+
+#### JavaScript
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6 class="card-title">前端开发能力</h6>
+    <ul>
+      <li>HTML/CSS基础</li>
+      <li>响应式设计</li>
+      <li>数据可视化</li>
+      <li>交互式界面</li>
+      <li>API接口调用</li>
+    </ul>
+  </div>
+</div>
+```
+
+**应用实例：**
+- 学术成果展示页面
+- 数据可视化仪表板
+- 在线问卷调查系统
+
+### 数据库技术
+
+#### SQL
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+</div>
+```
+
+**掌握技能：**
+- 数据库设计
+- SQL查询优化
+- 数据导入导出
+- 存储过程编写
+- 数据库管理
+
+#### MongoDB
+```{=html}
+<div class="progress mb-3">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+</div>
+```
+
+**掌握技能：**
+- NoSQL数据库操作
+- 文档存储与查询
+- 数据聚合分析
+- 索引优化
+- 数据备份恢复
+
+## 📚 专业证书与培训
+
+### 专业认证
+
+#### 实验室安全证书
+- **颁发机构：** 华中农业大学
+- **获得时间：** 2022年
+- **有效期：** 3年
+- **内容：** 实验室安全操作规范、应急处理
+
+#### 农业技术推广员
+- **颁发机构：** 湖北省农业厅
+- **获得时间：** 2023年
+- **级别：** 中级
+- **内容：** 农业技术推广理论与实践
+
+### 培训经历
+
+#### 数据分析高级培训
+- **机构：** 中国农业科学院
+- **时间：** 2023年暑期
+- **内容：** R语言高级应用、机器学习算法
+- **成果：** 完成结业项目并获得优秀学员
+
+#### GIS技术应用培训
+- **机构：** ESRI中国
+- **时间：** 2022年
+- **内容：** ArcGIS高级功能、空间分析技术
+- **证书：** 培训合格证书
+
+#### 学术写作培训
+- **机构：** 学校研究生院
+- **时间：** 2023年
+- **内容：** 学术论文写作规范、投稿技巧
+- **成果：** 发表2篇核心期刊论文
+
+## 🤝 软技能
+
+### 团队协作能力
+
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6 class="card-title">团队项目经验</h6>
+    <ul>
+      <li>担任3个科研项目的学生负责人</li>
+      <li>协调5人以上团队完成复杂实验</li>
+      <li>组织学术讨论会10+次</li>
+      <li>指导本科生实验操作</li>
+    </ul>
+  </div>
+</div>
+```
+
+### 沟通表达能力
+
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6 class="card-title">演讲与汇报</h6>
+    <ul>
+      <li>学术会议报告5次</li>
+      <li>校内讲座8次</li>
+      <li>技术培训15场</li>
+      <li>媒体采访3次</li>
+    </ul>
+  </div>
+</div>
+```
+
+### 项目管理能力
+
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6 class="card-title">管理经验</h6>
+    <ul>
+      <li>项目预算管理（2万元）</li>
+      <li>时间进度控制</li>
+      <li>资源协调分配</li>
+      <li>风险管理与应对</li>
+    </ul>
+  </div>
+</div>
+```
+
+## 🌱 持续学习
+
+### 在线课程
+
+- **Coursera:** 《Data Science Specialization》 - 进行中
+- **edX:** 《Introduction to GIS》 - 已完成
+- **Udemy:** 《Python for Data Analysis》 - 已完成
+- **学校MOOC:** 《农业信息技术》 - 已完成
+
+### 专业阅读
+
+- **期刊订阅：** 《Agricultural Systems》、《Plant Protection》
+- **技术博客：** R-bloggers、Towards Data Science
+- **行业报告：** 每周阅读农业科技发展报告
+- **会议论文：** 跟踪国际会议最新研究成果
+
+---
+
+*技能是不断积累的过程，我始终保持学习的热情，致力于提升专业能力，为农业科技进步贡献力量。*
