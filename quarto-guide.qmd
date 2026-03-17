@@ -1,0 +1,383 @@
+---
+title: "Quarto 技术指南"
+subtitle: "学习 Quarto 构建个人网站"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+## 📚 什么是 Quarto？
+
+**Quarto** 是一个开源的科学和技术出版系统，由 RStudio 团队开发。它能够将单一源文件转换为多种格式，包括 HTML、PDF、Word、PowerPoint 等。
+
+### 🎯 Quarto 的特点
+
+- **多格式输出：** 一次编写，多种格式
+- **Markdown 语法：** 简单易学，所见即所得
+- **代码集成：** 支持 R、Python、Julia 等多种编程语言
+- **响应式设计：** 自动生成移动端友好的网站
+- **模板系统：** 丰富的主题和模板选择
+
+## 🛠️ Quarto 基础知识
+
+### 文件结构
+
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6>基本文件结构</h6>
+    <pre><code>myhomepage/
+├── _quarto.yml          # 项目配置文件
+├── index.qmd           # 首页
+├── about.qmd           # 关于页面
+├── research.qmd        # 研究页面
+├── publications.qmd    # 成果页面
+├── skills.qmd          # 技能页面
+├── contact.qmd         # 联系页面
+├── styles.css          # 自定义样式
+├── script.js           # JavaScript 脚本
+└── README.md           # 项目说明</code></pre>
+  </div>
+</div>
+```
+
+### YAML 配置文件
+
+```{=html}
+<div class="card">
+  <div class="card-body">
+    <h6>_quarto.yml 配置示例</h6>
+    <pre><code>project:
+  type: website
+
+website:
+  title: "高彬 - 个人网站"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - about.qmd
+        text: 关于我
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true</code></pre>
+  </div>
+</div>
+```
+
+## 📝 Quarto 语法详解
+
+### 基础 Markdown 语法
+
+#### 标题
+```markdown
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+```
+
+#### 文本格式
+```markdown
+**粗体文本**
+*斜体文本*
+~~删除线文本~~
+`行内代码`
+```
+
+#### 列表
+```markdown
+有序列表：
+1. 第一项
+2. 第二项
+3. 第三项
+
+无序列表：
+- 项目一
+- 项目二
+- 项目三
+```
+
+#### 链接和图片
+```markdown
+[链接文本](https://example.com)
+![图片描述](image.jpg)
+```
+
+### Quarto 特有语法
+
+#### 块引用
+```markdown
+::: {.callout-note}
+这是一个注意块
+:::
+```
+
+#### HTML 块
+```html
+<div class="card">
+  <div class="card-body">
+    <h5>卡片标题</h5>
+    <p>卡片内容</p>
+  </div>
+</div>
+```
+
+#### 代码块
+```markdown
+```{r}
+# R 代码块
+summary(cars)
+```
+
+```{python}
+# Python 代码块
+import pandas as pd
+print("Hello World")
+```
+```
+
+## 🎨 样式定制
+
+### CSS 基础
+
+#### 选择器类型
+```css
+/* 元素选择器 */
+body { font-family: Arial; }
+
+/* 类选择器 */
+.card { border-radius: 10px; }
+
+/* ID 选择器 */
+#header { background-color: #007bff; }
+
+/* 属性选择器 */
+a[target="_blank"] { color: blue; }
+```
+
+#### 常用样式属性
+```css
+/* 文本样式 */
+font-family: "Microsoft YaHei", sans-serif;
+font-size: 16px;
+color: #333;
+text-align: center;
+
+/* 盒子模型 */
+padding: 20px;
+margin: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+
+/* 布局 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+/* 动画 */
+transition: all 0.3s ease;
+transform: translateY(-5px);
+```
+
+### Bootstrap 组件
+
+Quarto 默认使用 Bootstrap，可以使用其组件：
+
+```html
+<!-- 按钮 -->
+<button class="btn btn-primary">主要按钮</button>
+<button class="btn btn-success">成功按钮</button>
+
+<!-- 卡片 -->
+<div class="card">
+  <div class="card-body">卡片内容</div>
+</div>
+
+<!-- 网格系统 -->
+<div class="row">
+  <div class="col-md-6">左列</div>
+  <div class="col-md-6">右列</div>
+</div>
+```
+
+## 🔧 高级功能
+
+### 条件内容
+```markdown
+```{=if-format html}
+<p>仅在 HTML 输出中显示</p>
+```
+
+```{=if-format pdf}
+<p>仅在 PDF 输出中显示</p>
+```
+```
+
+### 引用和脚注
+```markdown
+这是一个引用示例[^1]。
+
+[^1]: 这是脚注内容。
+```
+
+### 数学公式
+```markdown
+行内公式：$E=mc^2$
+
+块级公式：
+$$
+\sum_{i=1}^n x_i = x_1 + x_2 + \cdots + x_n
+$$
+```
+
+## 🚀 部署和发布
+
+### 本地预览
+```bash
+# 安装 Quarto（如果未安装）
+# 访问 https://quarto.org/docs/get-started/
+
+# 预览网站
+quarto preview
+
+# 渲染网站
+quarto render
+
+# 发布网站
+quarto publish
+```
+
+### GitHub Pages 部署
+```bash
+# 1. 推送到 GitHub
+git add .
+git commit -m "更新网站"
+git push origin main
+
+# 2. 在 GitHub 仓库设置中启用 GitHub Pages
+# Settings -> Pages -> Source: main branch /docs folder
+```
+
+### Netlify 部署
+```bash
+# 1. 构建网站
+quarto render
+
+# 2. 将 _site 文件夹上传到 Netlify
+# 或使用 Netlify CLI
+npm install -g netlify-cli
+netlify deploy
+```
+
+## 📊 性能优化
+
+### 图片优化
+```html
+<!-- 使用适当的图片格式 -->
+<img src="image.webp" alt="描述" loading="lazy">
+
+<!-- 设置图片尺寸 -->
+<img src="image.jpg" width="300" height="200" alt="描述">
+```
+
+### CSS 优化
+```css
+/* 使用 CSS 变量 */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+/* 避免内联样式 */
+.card { background-color: var(--primary-color); }
+```
+
+### JavaScript 优化
+```javascript
+// 延迟加载
+window.addEventListener('load', function() {
+  // 页面加载完成后执行的代码
+});
+
+// 防抖函数
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+}
+```
+
+## 🐛 常见问题解决
+
+### 问题 1：样式不生效
+**原因：** CSS 优先级问题或选择器错误
+**解决：** 检查 CSS 选择器，使用 !important（不推荐）或提高选择器优先级
+
+### 问题 2：JavaScript 不工作
+**原因：** DOM 元素未加载完成
+**解决：** 使用 `DOMContentLoaded` 事件监听器
+
+### 问题 3：图片显示异常
+**原因：** 路径错误或图片格式不支持
+**解决：** 检查图片路径，使用相对路径，确保图片格式正确
+
+### 问题 4：响应式布局问题
+**原因：** Bootstrap 类使用不当
+**解决：** 检查网格系统类，使用正确的响应式类
+
+## 📚 学习资源
+
+### 官方文档
+- [Quarto 官网](https://quarto.org/)
+- [Quarto 文档](https://quarto.org/docs/)
+- [Quarto 示例](https://github.com/quarto-dev/quarto-web)
+
+### 学习教程
+- [Quarto 入门教程](https://quarto.org/docs/get-started/)
+- [Markdown 语法指南](https://www.markdownguide.org/)
+- [Bootstrap 文档](https://getbootstrap.com/docs/)
+
+### 社区支持
+- [Quarto 论坛](https://community.rstudio.com/c/quarto/)
+- [GitHub Issues](https://github.com/quarto-dev/quarto-cli/issues)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/quarto)
+
+## 🎯 实践建议
+
+### 1. 从小项目开始
+- 先创建简单的单页网站
+- 逐步添加功能和页面
+
+### 2. 多参考示例
+- 学习优秀的 Quarto 网站
+- 分析其结构和实现方式
+
+### 3. 善用调试工具
+- 使用浏览器开发者工具
+- 查看控制台错误信息
+
+### 4. 保持代码整洁
+- 合理组织文件结构
+- 添加注释说明
+- 定期重构代码
+
+### 5. 持续学习
+- 关注 Quarto 更新
+- 学习新的 Web 技术
+- 参与社区讨论
+
+---
+
+*通过 Quarto，你可以轻松创建专业、美观的个人网站。希望这份指南能帮助你更好地掌握 Quarto 技术！*
