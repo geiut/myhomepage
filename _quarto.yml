@@ -14,13 +14,11 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
+    theme: flatly  # 或你选择的其他单一主题
     css: styles.css
     toc: true
-    toc-depth: 3
-    toc-title: "目录"
-    page-layout: "full"
+    toc-title: "目录"  # 目录标题
+    page-layout: "full"  # 页面布局
 
 
 
