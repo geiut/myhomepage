@@ -1,0 +1,95 @@
+---
+title: "联系方式"
+---
+
+## 联系信息
+
+### 基本信息
+- **姓名**: 高彬
+- **专业**: 资源利用与植物保护
+- **学历**: 硕士研究生
+- **毕业院校**: 河南农业大学
+- **现就读院校**: 华中农业大学
+
+### 联系方式
+- **邮箱**: [请填写您的邮箱地址]
+- **电话**: [请填写您的联系电话]
+- **微信**: [请填写您的微信号]
+- **QQ**: [请填写您的QQ号码]
+
+### 地址信息
+- **学校地址**: 湖北省武汉市洪山区华中农业大学
+- **邮编**: 430070
+
+---
+
+## 社交媒体
+
+### 学术平台
+- **ResearchGate**: [您的ResearchGate链接]
+- **ORCID**: [您的ORCID ID]
+- **Google Scholar**: [您的Google Scholar链接]
+
+### 专业社交
+- **LinkedIn**: [您的LinkedIn链接]
+- **GitHub**: [您的GitHub链接，如有]
+
+---
+
+## 合作意向
+
+### 学术交流
+欢迎与以下领域的学者、研究人员进行学术交流：
+- 植物保护与病虫害防治
+- 农业资源可持续利用
+- 生态农业与环境保护
+- 农业大数据分析
+
+### 项目合作
+- 科研项目合作
+- 学术论文合作
+- 技术咨询与支持
+- 实习与就业机会
+
+### 指导与咨询
+- 农业科学相关问题咨询
+- 研究生学习经验分享
+- 学术论文写作指导
+- 科研方法与技巧交流
+
+---
+
+## 在线留言
+
+如果您有任何问题或合作意向，欢迎通过以下方式联系我：
+
+```{=html}
+<form action="#" method="post">
+  <div class="mb-3">
+    <label for="name" class="form-label">姓名</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">邮箱</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">留言内容</label>
+    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">发送留言</button>
+</form>
+```
+
+---
+
+## 访问统计
+
+本页面访问统计：
+- 总访问量: [统计代码]
+- 今日访问: [统计代码]
+- 在线人数: [统计代码]
+
+---
+
+**感谢您的访问！期待与您的交流与合作！**

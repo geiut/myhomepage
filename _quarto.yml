@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "高彬的个人网站"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - about.qmd
+      - portfolio.qmd
+      - skills.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-title: "目录"
+    page-layout: "full"
+
+
+
