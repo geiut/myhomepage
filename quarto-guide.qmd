@@ -134,9 +134,8 @@ format:
 summary(cars)
 ```
 
-```{python}
-# Python 代码块
-import pandas as pd
+```{r}
+# R 代码块
 print("Hello World")
 ```
 ```
